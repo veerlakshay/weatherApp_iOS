@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location required</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Location required</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Location required</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -21,5 +27,10 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string></string>
+		<string>location</string>
+	</array>
 </dict>
 </plist>
